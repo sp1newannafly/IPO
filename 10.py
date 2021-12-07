@@ -1,0 +1,10 @@
+file=open("F:\\GIt\\IPO\\input.txt","rt")
+pythonchick=file.read()
+b=pythonchick.count("+") 
+a=pythonchick.count("-")
+j=pythonchick.count("*") 
+print("Кол-во символов + :",b) 
+print("Кол-во символов - :",a) 
+print("Кол-во символов * :",j) 
+i=a+b+j 
+print("Общее кол-во символов:",i)
