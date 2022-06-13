@@ -1,6 +1,4 @@
-import pandas as pd
 import numpy as np
-a = pd.Series([2, 4, 6, 8])
-b = pd.Series([1, 3, 5, 7])
-rez = np.linalg.norm(a-b)
-print(rez)
+import pandas as pd
+s = pd.Series(np.random.randint(low=1,high=10,size=[100]), pd.date_range('2022-01-01', periods=100, freq='W-SAT'))
+print(s)
